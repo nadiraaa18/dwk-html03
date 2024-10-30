@@ -1,0 +1,61 @@
+/* Add styles here */
+body{
+    background-image: url(images/poto.jpg);
+    /* background-repeat: no-repeat; */
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    padding: 0px;
+    background-color: white;
+    opacity: 80%;
+}
+.navbarmenu {
+    text-align: right;
+    padding: 5px;
+}
+.navbarmenulist{
+    list-style: none;
+}
+.navbarmenulist > li{
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
+.navbarmenulist > li > a{
+    text-decoration: none;
+    color: black;
+}
+.navbarmenulist > li a:hover{
+    font-weight: bold;
+    /* color: white;
+    background-color: black;
+     */
+} 
+.navbarjudul{
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+    font-size: 2em;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+#txhello{
+    font-size: 36px;
+    position: relative;
+    top: 200px;
+    left: 25%;
+}
+#btn1{
+    position: relative;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 18px;
+    top: 187px;
+    left: 28%;
+}
+#btn1:hover{
+    color: rgb(236, 177, 177);
+    background-color: black;
+}
